@@ -1,0 +1,38 @@
+# Build
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Qt
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# SDK / toolchain
+sdk/
+toolchain/
+
+# Docker build artifacts
+.docker-build/
+
+# Device deployment
+deploy/
+
+# Thirdparty build artifacts (source is tracked, build output is not)
+thirdparty/mupdf/build/

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="featherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c2c2c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Feather body — elegant curved quill shape -->
+  <path d="M 420 60 
+           C 380 80, 340 120, 300 170
+           C 260 220, 220 280, 180 340
+           C 160 370, 140 400, 120 430
+           L 108 452
+           C 130 420, 160 380, 190 340
+           C 170 360, 150 385, 135 410
+           L 108 452
+           C 100 468, 92 480, 85 490
+           L 80 500
+           L 82 494
+           C 86 484, 95 465, 108 440
+           C 80 440, 55 445, 30 455
+           C 60 435, 90 425, 115 425
+           C 140 385, 170 340, 200 295
+           C 160 320, 130 360, 105 400
+           C 130 380, 160 340, 195 290
+           C 230 240, 270 190, 310 150
+           C 350 115, 390 90, 420 60 Z"
+        fill="url(#featherGrad)" />
+  <!-- Feather spine / rachis -->
+  <path d="M 420 60
+           C 380 100, 320 180, 260 270
+           C 200 360, 150 420, 108 452
+           L 80 500"
+        stroke="#555" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Feather barb lines — left side -->
+  <line x1="370" y1="100" x2="320" y2="130" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="340" y1="140" x2="280" y2="180" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="310" y1="180" x2="240" y2="230" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="280" y1="220" x2="200" y2="275" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="250" y1="260" x2="170" y2="320" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <line x1="220" y1="300" x2="145" y2="360" stroke="#444" stroke-width="1.2" opacity="0.5"/>
+  <!-- Nib / pen tip -->
+  <path d="M 80 500
+           L 72 512
+           L 68 508
+           L 80 500 Z"
+        fill="#1a1a1a" />
+  <!-- Small ink dot -->
+  <circle cx="70" cy="512" r="4" fill="#1a1a1a" opacity="0.7"/>
+  <!-- Ink trail from nib -->
+  <path d="M 70 512
+           C 65 516, 58 518, 50 516
+           C 42 514, 36 510, 32 512"
+        stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+</svg>
