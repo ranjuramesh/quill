@@ -23,6 +23,7 @@ ui_*.h
 *.swo
 *~
 .DS_Store
+._*
 
 # SDK / toolchain
 sdk/
